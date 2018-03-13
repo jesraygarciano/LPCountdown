@@ -64,3 +64,42 @@ html, body {
 .countdown div:first-child{
 	background: #17a2b8;
 }
+
+@media (max-width: 650px) {
+	.landing img{
+		width: 70%;
+	}
+	.landing h1{
+		font-size: 40px;
+	}
+
+	.countdown{
+		font-size: 30px;
+		flex-direction: column;
+	}
+
+	.countdown div {
+		display: none;
+	}
+
+	.countdown div:first-child{
+		display: block;
+		width: 80%;
+		padding: 10px;
+	}
+}
+
+@media (max-height: 600px){
+	img{
+		width: 20%;
+	}
+	p{
+		display: none;
+	}
+}
+
+@media (max-height: 400px){
+	h1 {
+		display: none;
+	}
+}
