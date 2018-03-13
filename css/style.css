@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	font-family: Roboto, Arial, sans-serif;
+	color: #fff;
+	background: #333;
+	overflow: hidden;
+}
+
+.landing {
+	position: relative;
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+}
