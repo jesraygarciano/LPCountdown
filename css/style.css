@@ -19,3 +19,22 @@ html, body {
 	background-attachment: fixed;
 	height: 100vh;
 }
+
+.landing .landing-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, .7);
+	padding-top: 5rem;
+}
+
+.landing h1 {
+	font-size: 3em;
+}
+
+.landing p {
+	font-size: 2em;
+}
